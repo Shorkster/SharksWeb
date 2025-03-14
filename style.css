@@ -60,3 +60,26 @@ button:hover {
 .gallery img:hover {
     transform: scale(1.2);
 }
+
+#google_translate_element {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+}
+
+body {
+    top: 0px !important; 
+}
+
+.goog-te-gadget {
+    font-size: 12px;
+    color: white;
+}
