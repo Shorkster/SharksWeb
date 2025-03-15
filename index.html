@@ -2,53 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SharksWeb</title>
+    <title>About Sharky</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
 <body>
 
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">×</a>
-        <h3>Menu</h3>
-        <a href="#">About</a>
-        <div id="google_translate_element"></div>
-        <a href="#">Contact</a>
-    </div>
+<header>
+    <h1>Welcome to Sharky's World! 🦈</h1>
+    <p>Learn all about me, my favorite things, and random fun facts!</p>
+</header>
 
-    <button class="openbtn" onclick="openSidebar()">☰ Menu</button>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="funfacts.html">Fun Facts</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
 
-    <header>
-        <h1>Welcome to my first Website :D</h1>
-        <p>Made by Sharky :D</p>
-    </header>
+<main>
+    <h2>Who is Sharky?</h2>
+    <p>Hey! I'm Sharky, and I love creating cool stuff on Roblox, making websites, and learning new things. This is my personal site to share everything I like!</p>
+    <p>Feel free to explore and get to know me better! :D</p>
+</main>
 
-    <button id="myButton">Click Me!</button>
-    <p id="message"></p>
-
-    <script src="script.js"></script>
-
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement(
-                {pageLanguage: 'en'},
-                'google_translate_element'
-            );
-        }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-    <script>
-        function openSidebar() {
-            document.getElementById("mySidebar").style.width = "250px";
-        }
-
-        function closeSidebar() {
-            document.getElementById("mySidebar").style.width = "0";
-        }
-    </script>
+<footer>
+    <p>Made by Sharky 🦈 | 2025</p>
+</footer>
 
 </body>
 </html>
